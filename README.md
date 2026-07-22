@@ -29,3 +29,5 @@ assets/best_v3_float16.tflite
 ## Prototype Boundary
 
 현재 저장소는 카메라·추론 흐름을 검증한 프로토타입입니다. 운영 환경에서는 네트워크 복원력, 배터리 최적화, 발열, 프레임 지연, 암호화 스트리밍과 기기 인증이 추가로 필요합니다.
+
+iOS 빌드에 필요한 Apple Development Team과 서명 인증서는 저장소에 포함하지 않습니다. Xcode에서 각 개발자의 로컬 계정으로 설정해야 합니다.
